@@ -131,6 +131,11 @@ p {
   line-height: 1.75rem;
   letter-spacing: 1px;
 }
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
 .custom-navbar {
   background: var(--text-hover-color);
   color: var(--text-white) !important;

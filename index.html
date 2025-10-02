@@ -18,7 +18,7 @@
   <header class="container-fluid">
     <nav class="navbar navbar-expand-lg fixed-top custom-navbar shadow-lg p-2">
       <div class="container-fluid">
-        <h4 class="navbar-brand">logo</h4>
+        <h4 class="navbar-brand">sumit sarkar</h4>
         <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa-solid fa-bars-staggered text-danger"></i>
@@ -40,7 +40,6 @@
 
   <!-- Main section -->
   <main>
-
     <!-- home Section -->
     <section id="home" class="home-wrapper p-2 p-md-0 container">
       <div class="row">
@@ -55,6 +54,7 @@
           </h5>
           <div class="w-100 d-flex justify-content-center gap-lg-3 pt-5 py-md-3">
             <button class="custom-btn">Hire Me</button>
+
             <button class="custom-btn">Download CV</button>
           </div>
         </div>
@@ -103,7 +103,7 @@
           <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
             <div class="skill-card">
               <img src="./assets/tailwind.png" alt="Tailwind" class="img-fluid">
-              <p>Tailwind</p>
+              <p>Tailwind CSS</p>
             </div>
           </div>
 
@@ -116,8 +116,22 @@
 
           <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
             <div class="skill-card">
+              <img src="./assets/redux.png" alt="Redux toolkit" class="img-fluid">
+              <p>Redux Toolkit</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+            <div class="skill-card">
               <img src="./assets/node.png" alt="Node.js" class="img-fluid">
               <p>Node.js</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+            <div class="skill-card">
+              <img src="./assets/express.png" alt="express" class="img-fluid">
+              <p>expressJS</p>
             </div>
           </div>
 
@@ -127,12 +141,21 @@
               <p>MongoDB</p>
             </div>
           </div>
+
           <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
             <div class="skill-card">
-              <img src="./assets/express.png" alt="express" class="img-fluid">
-              <p>expressJS</p>
+              <img src="./assets/mysql.png" alt="mysql" class="img-fluid">
+              <p>MySQL</p>
             </div>
           </div>
+
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+            <div class="skill-card">
+              <img src="./assets/figma.png" alt="figma" class="img-fluid">
+              <p>Figma</p>
+            </div>
+          </div>
+
         </div>
       </section>
       <!-- Skill Progress -->
@@ -140,18 +163,14 @@
         <div class="row">
           <!-- Frontend Skills -->
           <div class="col-12 col-lg-4 p-3">
-            <h3 class="fw-bold text-decoration-underline">Frontend</h3>
+            <h3 class="fw-bold text-decoration-underline lspacing">Frontend</h3>
 
-            <div class="progress my-2" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar bg-primary" style="width: 90%">HTML : 90%</div>
+            <div class="progress my-2" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-primary " style="width: 65%">React : 65%</div>
             </div>
 
-            <div class="progress my-2" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar bg-info" style="width: 85%">CSS : 85%</div>
-            </div>
-
-            <div class="progress my-2" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar bg-warning text-dark" style="width: 75%">JavaScript : 75%</div>
+            <div class="progress my-2" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-success  " style="width: 65%">Redux Toolkit : 65%</div>
             </div>
 
             <div class="progress my-2" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
@@ -163,9 +182,7 @@
 
             </div>
 
-            <div class="progress my-2" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar bg-primary " style="width: 65%">React : 65%</div>
-            </div>
+
           </div>
 
           <!-- Backend Skills -->
@@ -188,6 +205,11 @@
             <div class="progress my-2" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
               <div class="progress-bar bg-success" style="width: 60%">mongoDB : 60%</div>
             </div>
+
+            <div class="progress my-2" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-primary" style="width: 60%">mySQL : 60%</div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -224,11 +246,10 @@
 
     </section>
 
-
-
     <!-- about Section -->
     <section id="about" class="about-wrapper p-2 p-md-5 container">
       <div class="row py-5">
+        <!-- headings -->
         <div class=" col-12 text-center ">
           <h2>About Me</h2>
           <p class="lead fw-medium">
@@ -236,7 +257,9 @@
             love creating dynamic and responsive web applications.
           </p>
         </div>
+        <!-- show case part -->
         <div class="col-12 px-2 text-center">
+          <!-- show case pills -->
           <ul class="nav about-menu justify-content-between justify-content-lg-around nav-pills" id="pills-tab"
             role="tablist">
             <li class="nav-item" role="presentation">
@@ -260,12 +283,24 @@
                 aria-selected="false">Others</button>
             </li>
           </ul>
+
+          <!--pills body -->
           <div class="tab-content" id="pills-tabContent">
 
+            <!-- Domain Expertise -->
             <div class="tab-pane p-2 fade show" id="pills-expertise" role="tabpanel"
               aria-labelledby="pills-expertise-tab" tabindex="0">
               <h3>Domain Expertise</h3>
               <div class=" px-3 px-5">
+
+                <!-- UI Design tools Expertise -->
+                <div class="d-flex justify-content-between align-items-center">
+                  <h5 UI>Design tools</h5>
+                  <h5>70%</h5>
+                </div>
+                <div class="progress mb-3" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-dark w-100"></div>
+                </div>
 
                 <!-- Frontend Expertise -->
                 <div class="d-flex justify-content-between align-items-center">
@@ -273,7 +308,7 @@
                   <h5>75%</h5>
                 </div>
                 <div class="progress mb-3" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-dark w-75"></div>
+                  <div class="progress-bar bg-dark w-100"></div>
                 </div>
 
                 <!-- Backend Expertise -->
@@ -282,7 +317,16 @@
                   <h5>75%</h5>
                 </div>
                 <div class="progress mb-3" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-dark w-75"></div>
+                  <div class="progress-bar bg-dark w-100"></div>
+                </div>
+
+                <!-- Database Expertise -->
+                <div class="d-flex justify-content-between align-items-center">
+                  <h5>Database</h5>
+                  <h5>75%</h5>
+                </div>
+                <div class="progress mb-3" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-dark w-100"></div>
                 </div>
 
                 <!-- MARKETING Expertise -->
@@ -291,14 +335,13 @@
                   <h5>75%</h5>
                 </div>
                 <div class="progress mb-3" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-dark w-75"></div>
+                  <div class="progress-bar bg-dark w-100"></div>
                 </div>
 
               </div>
             </div>
 
-
-
+            <!--Education -->
             <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab"
               tabindex="0">
               <h3>Education</h3>
@@ -310,17 +353,20 @@
               </ul>
             </div>
 
+            <!--Certifications -->
             <div class="tab-pane fade" id="pills-certifications" role="tabpanel"
               aria-labelledby="pills-certifications-tab" tabindex="0">
               <h3>Certifications</h3>
               <p class="fw-bold">Here are some certifications I have earned:</p>
               <ul class="list-unstyled">
-                <li class="h5">Full-Stack Web Development - [Institute Name]</li>
-                <li class="h5">JavaScript & React Certification - [Institute Name]</li>
-                <li class="h5">MongoDB & Node.js Advanced Training - [Institute Name]</li>
+                <li class="h5">MERN Stack Web Development & AI - Euphoria GenX </li>
+                <li class="h5">Advance excel - [Institute Name]</li>
+                <li class="h5">Power BI - [Institute Name]</li>
               </ul>
             </div>
 
+
+            <!--Other Information -->
             <div class="tab-pane fade" id="pills-others" role="tabpanel" aria-labelledby="pills-others-tab"
               tabindex="0">
               <h3>Other Information</h3>
